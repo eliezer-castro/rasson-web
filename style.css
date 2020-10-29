@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+     font-family: 'Montserrat', sans-serif;
+
+}
+
+.container{
+    background-image:  linear-gradient(73.63deg, rgba(55, 81, 255, 0.73) 1.63%, rgba(55, 81, 255, 0) 99.04%), url("/img/bg-img.png");
+    height: 600px;
+    width: 1080px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 8% 8% 0 0;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: flex-end;
+
+
+}
+
+.container .title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    margin-bottom: 8%;
+
+}
+.container .form-card{
+ 
+    width:400px;
+    height:390px;
+    background-color: #fff;
+    border-radius: 4px 4px 0 0; 
+    padding: 4% 7%;
+}
+
+.container form input[type=text], input[type=email], input[type=password]{
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #3751FF;
+    width: 260px;
+    border: 2px solid #3751FF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 5px;
+}
+
+.container form button{
+    padding: 10px;
+    width: 115px;
+    background: #3751FF;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    letter-spacing: .2px;
+    font-family: 'Source Sans Pro', sans-serif;
+    outline: none;
+    border: none;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    transition: 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.container form button:hover{
+    background: #0092E3;
+}
+.container form a{
+    font-size: .8em;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container .form-card form .links{  
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.container .form-card form .links a{ 
+    margin-left: 30px; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
